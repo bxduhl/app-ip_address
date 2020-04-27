@@ -44,6 +44,8 @@ function getFirstIpAddress(cidrStr, callback) {
   // data as the second argument to the callback function.
   return callback(firstIpAddress, callbackError);
 }
+
+
 /**
  * Calculates an IPv4-mapped IPv6 address.
  * @param {string} ipv4 - An IPv4 address in dotted-quad format.
@@ -131,3 +133,8 @@ function main() {
     }
   }
 }
+
+/*
+  Call main to run it.
+*/
+main();

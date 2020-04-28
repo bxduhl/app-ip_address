@@ -5,7 +5,7 @@ module.exports.getIpv4MappedIpv6Address = getIpv4MappedIpv6Address;
  * @return {*} (ipv6Address) - An IPv6 address string or null if a run-time problem was detected.
  */
 function getIpv4MappedIpv6Address(ipv4) {
- 
+
   // Initialize return argument
   let ipv6Address = null;
 
